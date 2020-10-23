@@ -5,6 +5,8 @@ Just go to your terminal, and hit `npx harsh-dev`
 
 This is a project by [anmol singh.] This is simply my version of it for me.
 
+### If you fork this repo, make sure to star [anmol singh's repo], and credit him for his efforts.
+
 # Building 
 
 ### Here's some basic instructions on how you can also create your neat little npx card. You can also view the instructions on his repo, [here] 
@@ -30,6 +32,7 @@ This is a project by [anmol singh.] This is simply my version of it for me.
  - Run `npx your-pacakge-name`
 
 [anmol singh.]: https://github.com/anmol098/npx_card
+[anmol singh's repo]: https://github.com/anmol098/npx_card
 [here]: https://github.com/anmol098/npx_card
 [npmjs]: https://www.npmjs.com/
 [npm]: https://www.npmjs.com/
