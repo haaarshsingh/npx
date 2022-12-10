@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn publish
+
+PATH: 
+  /home/harsh/.local/share/pnpm:/usr/share/archcraft/scripts:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/harsh/.yarn/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.0.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:274:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  {
+    "name": "harshsingh",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "Terminal business card",
+    "main": "dist/index.js",
+    "types": "index.d.ts",
+    "author": "Harsh Singh",
+    "license": "MIT",
+    "keywords": [
+      "Harsh Singh"
+    ],
+    "scripts": {
+      "prepublish": "tsc"
+    },
+    "dependencies": {
+      "boxen": "^7.0.0",
+      "chalk": "^5.2.0",
+      "inquirer": "^9.1.4",
+      "open": "^8.4.0"
+    },
+    "devDependencies": {
+      "@tsconfig/node18": "^1.0.1",
+      "@types/inquirer": "^9.0.3",
+      "@types/node": "^18.11.12",
+      "ts-node": "^10.9.1",
+      "typescript": "^4.9.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

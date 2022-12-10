@@ -3,12 +3,17 @@
   "version": "0.0.1",
   "type": "module",
   "description": "Terminal business card",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "author": "Harsh Singh",
+  "license": "MIT",
   "keywords": [
     "Harsh Singh"
   ],
-  "author": "Harsh Singh",
-  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
   "dependencies": {
     "boxen": "^7.0.0",
     "chalk": "^5.2.0",
