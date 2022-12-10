@@ -1,6 +1,6 @@
 # npx
 
-My terminal business card. Read about it at [harshsingh.xyz/blog/cards].
+My terminal business card. Read about it at [harshsingh.xyz/blog/cards](https://harshsingh.xyz/blog/cards).
 
 ## Usage 
 
