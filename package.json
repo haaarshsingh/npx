@@ -1,6 +1,6 @@
 {
   "name": "harshsingh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Terminal business card",
   "main": "dist/index.js",
