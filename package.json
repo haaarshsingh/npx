@@ -1,22 +1,25 @@
 {
-  "name": "harsh-dev",
-  "version": "1.0.11",
-  "description": "My npx card for you to get to know more about me :D",
-  "main": "card.js",
-  "bin": "./card.js",
-  "scripts": {
-    "test": "node card.js",
-    "pub": "npm version patch & npm publish",
-    "devStart": "node card.js"
-  },
+  "name": "harshsingh",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Terminal business card",
+  "main": "index.js",
+  "keywords": [
+    "Harsh Singh"
+  ],
+  "author": "Harsh Singh",
+  "license": "MIT",
   "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.0",
-    "clear": "^0.1.0",
-    "inquirer": "^7.3.2",
-    "open": "^7.0.4"
+    "boxen": "^7.0.0",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4",
+    "open": "^8.4.0"
   },
-  "keywords": [],
-  "author": "Harsh",
-  "license": "MIT"
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.12",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
 }

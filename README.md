@@ -1,26 +1,49 @@
-# npx-harsh
-My npx card for you to know more about me :D
+# npx
 
-Just go to your terminal, and hit `npx harsh-dev`
+My terminal business card. Read about it at [harshsingh.xyz/blog/cards].
 
-This is a project by [anmol singh.] This is simply my version of it for me.
+## Usage 
 
-If you fork this repo, make sure to star [anmol singh's repo], and credit him for his efforts.
+In your terminal, run:
 
-# Building 
+```zsh
+npx harshsingh
+# pnpx harshsingh
+```
 
- - Clone this project `git clone https://github.com/harshhhdev/npx-harsh.git`
- - `npm install` to install  the required pacakges. 
- - Hit `node card.js` to test if everything is working.
- - Personalise it to your needs. 
- - Make sure you have created an account on [npmjs]
- - If you're not logged in, then do `npm adduser`
- - Publish the pacakge `npm publish`
- - Run `npx your-pacakge-name`
+## Building
 
-[anmol singh.]: https://github.com/anmol098/npx_card
-[anmol singh's repo]: https://github.com/anmol098/npx_card
-[here]: https://github.com/anmol098/npx_card
-[npmjs]: https://www.npmjs.com/
-[npm]: https://www.npmjs.com/
-[node.js]: https://nodejs.org/en/
+Run the project locally
+
+```zsh
+git clone https://github.com/harshhhdev/npx.git
+```
+
+### Setting up the project
+
+```zsh
+cd npx
+pnpm
+```
+
+Next, build the output and watch for changes
+
+```zsh
+pnpm tsc
+
+# Watch for changes automatically
+# Node.js v18.11.0+
+node --watch dist/index.js
+```
+
+## Tools
+
+ - [boxen](https://github.com/sindresorhus/boxen)
+ - [open](https://github.com/sindresorhus/open)
+ - [chalk](https://github.com/chalk/chalk)
+ - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+
+# Inspirations
+
+ - [anmol098/npx_card](https://github.com/anmol098/npx_card)
+ - [@jackboberg](https://studioelsa.se/blog/open-source-oss-npx-business-card/)
