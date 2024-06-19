@@ -1,8 +1,8 @@
-# npx
+## npx
 
-My terminal business card. Read about it at [harshsingh.xyz/blog/cards](https://harshsingh.xyz/blog/cards).
+My terminal business card. Built for an old blog post.
 
-## Usage 
+### Usage 
 
 In your terminal, run:
 
@@ -11,7 +11,7 @@ npx harshsingh
 # pnpx harshsingh
 ```
 
-## Building
+#### Building
 
 Run the project locally
 
@@ -19,7 +19,7 @@ Run the project locally
 git clone https://github.com/harshhhdev/npx.git
 ```
 
-### Setting up the project
+#### Setting up the project
 
 ```zsh
 cd npx
@@ -36,14 +36,14 @@ pnpm tsc
 node --watch dist/index.js
 ```
 
-## Tools
+### Tools
 
  - [boxen](https://github.com/sindresorhus/boxen)
  - [open](https://github.com/sindresorhus/open)
  - [chalk](https://github.com/chalk/chalk)
  - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 
-# Inspirations
+### Inspirations
 
  - [anmol098/npx_card](https://github.com/anmol098/npx_card)
  - [@jackboberg](https://studioelsa.se/blog/open-source-oss-npx-business-card/)
