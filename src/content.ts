@@ -12,14 +12,14 @@ export const questions = [
       {
         name: 'Toss an email',
         value: () => {
-          open('mailto:hi.harsh@pm.me')
+          open('mailto:yo@harshsingh.xyz')
           console.log('\nLooking forward to hearing from you.\n')
         }
       },
       {
-        name: 'Reach out at @harshhhdev',
+        name: 'Reach out at @haaarshsingh',
         value: () => {
-          open('https://twitter.com/harshhhdev')
+          open('https://twitter.com/haaarshsingh')
           console.log('\nLooking forward to hearing from you.\n')
         }
       },
@@ -40,7 +40,6 @@ export const me = boxen(
     `${data.labelWebsite}  ${data.website}`,
     `${data.labelTwitter}  ${data.twitter}`,
     `${data.labelGitHub}  ${data.github}`,
-    `${data.labelDribbble}  ${data.dribbble}`,
     `${data.labelLinkedin}  ${data.linkedin}`,
     '',
     `${chalk.bold('Painting beautiful interfaces, building tools and')}`,
