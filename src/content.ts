@@ -12,14 +12,14 @@ export const questions = [
       {
         name: 'Toss an email',
         value: () => {
-          open('mailto:yo@harshsingh.xyz')
+          open('mailto:yo@harshsingh.me')
           console.log('\nLooking forward to hearing from you.\n')
         }
       },
       {
         name: 'Reach out at @haaarshsingh',
         value: () => {
-          open('https://twitter.com/haaarshsingh')
+          open('https://x.com/haaarshsingh')
           console.log('\nLooking forward to hearing from you.\n')
         }
       },
