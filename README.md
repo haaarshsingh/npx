@@ -11,7 +11,7 @@ npx harshsingh
 # pnpx harshsingh
 ```
 
-#### Building
+### Building
 
 Run the project locally
 
