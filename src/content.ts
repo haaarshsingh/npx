@@ -45,9 +45,9 @@ export const me = boxen(
     `${chalk.bold('Painting beautiful interfaces, building tools and')}`,
     `${chalk.bold('polished user interactions.')}`,
     '',
-    `${chalk.bold('Following passion, living what I love. Enjoys')}`,
-    `${chalk.bold('lifting weights, evening walks, databases, Linux,')}`,
-    `${chalk.bold('Vim and other random computer things.')}`
+    `${chalk.bold('In my free time, I like to spend time outdoors,')}`,
+    `${chalk.bold('work on my open source projects, and tinker around')}`,
+    `${chalk.bold('with all sorts of random computer stuff.')}`
   ].join('\n'),
   {
     margin: 1,
