@@ -1,6 +1,6 @@
 {
   "name": "harshsingh",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "type": "module",
   "description": "Terminal business card",
   "main": "dist/index.js",
@@ -12,7 +12,6 @@
   ],
   "author": "Harsh Singh",
   "homepage": "https://harshsingh.me",
-  "license": "MIT",
   "keywords": [
     "Harsh Singh"
   ],
